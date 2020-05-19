@@ -1,10 +1,10 @@
 # LifeExpectancy
 
-##Interactive visualization demonstrating life expectancy probability curves at any age
+## Interactive visualization demonstrating life expectancy probability curves at any age
 
 While we often hear life expectancy described as a specific age to which one would expect to live; in fact, life expectancy is more usefully described as a probability distribution.  You can think of the age through which you have a 50% probability of surviving as your median life expectancy.  Furthermore, using the probability distribution you can also estimate your probability of living to 70, 80, 90, or other ages.  An example of the utility of the entire curve is retirement scenario planning, in which you don’t want to run out of money at your median life expectancy, since there is a 50% probability of living beyond this age.
 
-This interactive graphic shows the life expectancy probability (blue) curve for males or females at any given current age (as controlled by the “Current Age” slider).  The underlying life table data are from the <a href="https://www.cdc.gov/nchs/data/nvsr/nvsr68/nvsr68_07-508.pdf" target="_blank">2017 CDC Life Tables</a> (expounded upon below the graphic).  
+This interactive graphic shows the life expectancy probability (blue) curve for males or females at any given current age (as controlled by the “Current Age” slider).  The underlying life table data are from the <a href="https://www.cdc.gov/nchs/data/nvsr/nvsr68/nvsr68_07-508.pdf" target="_blank">2017 CDC Life Tables</a>.  
 
 The graphic also allows you to enter an estimated mortality rate from a new event risk not accounted for in the life tables, to show the effect of this risk on the overall life expectancy chart (updated survival probabilities represented by the pink shaded area), and on the 1-year survival rate.  For simplicity, the application applies the entire mortality risk to the first year, and assumes no residual impact on life expectancy following survival of the one-time new event.
 
