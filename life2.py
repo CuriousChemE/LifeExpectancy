@@ -46,7 +46,7 @@ agerange,mp,mp2,MedianAge,Age75,Age25,MA2,A72,A22=MortalityCalc(age,EventMortali
 source = ColumnDataSource(data=dict(x=agerange, y=mp))
 #source = ColumnDataSource(data=dict(x=agerange, y1=np.repeat(0,len(mp)), y2=mp))
 source2 = ColumnDataSource(data=dict(x=agerange, y1=np.repeat(0,len(mp2)), y2=mp2))
-plot = figure(x_range=(0, 100),y_range=(0,1), plot_width=700, plot_height=400,title='Life Expectancy (based on United States Life Tables, 2017 CDC/NVSS)')
+plot = figure(x_range=(0, 100),y_range=(0,1), plot_width=700, plot_height=400,toolbar_location=None,title='Life Expectancy (based on United States Life Tables, 2017 CDC/NVSS)')
 plot.line('x', 'y', source=source, line_width=3, line_alpha=0.6)
 # plot.varea('x', 'y1','y2', source=source2,fill_color='#CFEBE6')
 plot.varea('x', 'y1','y2', source=source2,fill_color='#F4D8D8')
