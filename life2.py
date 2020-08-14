@@ -122,7 +122,7 @@ divbottom = Div(text=textbottom, sizing_mode="scale_width")
 # create the document
 # curdoc().add_root(divtop)
 curdoc().add_root(row(inputs,plot))
-# curdoc().add_root(divbottom)
+curdoc().add_root(divbottom)
 curdoc().title = "LifeExpectancy"
 
 
